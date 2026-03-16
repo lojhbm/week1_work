@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>HOME :: 20240828 임가영</title>
+  <link rel="stylesheet" href="../css/design.css">
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Do+Hyeon&family=Gowun+Batang:wght@400;700&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li><a href="Home.html" target="_self" id="check">Home</a></li>
+          <li><a href="About.html" target="_self">About</a></li>
+          <li><a href="Baseball.html" target="_self">Baseball</a></li>
+          <li><a href="Ani.html" target="_self">Ani</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div id="contents">
+          <div id="image">
+            <img src="../image/망곰이 프로필 사진.jpg" atl="대표 사진" class="profile-pic">
+          </div>
+            <div id="contents_text_Home" class="gowun-batang-regular">
+                <h1 class="do-hyeon-regular" >임가영</h1><br>
+                <p>2005. 05. 26</p>
+                <p>동덕여자대학교 24학번 컴퓨터학과</p>
+                <p>취미: 야구 경기 보기, 음악 감상</p>
+                <p>좋아하는 것: 귀여운 캐릭터</p>
+            </div> 
+        </div>
+        <div id="sidebar">
+          <form id="question">
+            <fieldset>
+              <legend class="do-hyeon-regular">문의사항</legend>
+              <ul>
+                <li>
+                  <label for="fullname" class="gowun-batang-bold">이름</label>
+                  <input id="fullname" name="fullname" type="text" required class="nanum-brush-script-regular">
+                </li>
+                <li>
+                  <label for="tel" class="gowun-batang-bold">연락처</label>
+                  <input id="tel" name="tel" type="tel" class="nanum-brush-script-regular">
+                </li>
+                <li>
+                  <label for="memo" class="gowun-batang-bold">궁금한 점</label>
+                  <textarea col="500" rows="10" placeholder="무엇이든 물어보세요." class="nanum-brush-script-regular"></textarea>
+                </li>          
+              </ul>
+            </fieldset>
+            <fieldset id="buttons">
+              <button type="submit" id="bt1">제출하기</button>
+            </fieldset>
+          </form>
+        </div>
+    </main>
+    <footer id="footer">
+      <div class="contact-info">
+        <ul>
+          <li><a href="mailto:20240828@dongduk.ac.kr">E-MAIL</a></li>
+          <li><a href="tel:+1234567890">TEL</a></li>
+          <li><a href="https://velog.io/@lojhb__m/posts" target="_blank">BLOG</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
